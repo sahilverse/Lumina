@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+<!-- Favicon -->
+
+<!-- Boxicon CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+<!-- Fontawesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- lni CDN -->
+<link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+
+<!-- Bootstrap CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+<!-- StyleSheet -->
+<link rel="stylesheet" href="./CSS/personal-care.css">
+<link rel="stylesheet" href="./CSS/nomatch.css">
+
+<!-- Title -->
+
+<title>
+    Online Shopping in Nepal | Best Deals, Prices & Discounts - Lumina.com.np
+</title>
+
+<!-- Meta Tags -->
+<meta name="description"
+    content="Looking for Online Shopping Nepal? Lumina.com.np online shopping site is one of the largest online shopping store in Kathmandu, Biratnagar across the country - Shop Now! ✓FREE Delivery" />
+<meta property="og:url" content="https://www.lumina.com.np/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Online Shopping in Nepal | Best Deals, Prices &amp; Discounts - lumina.com.np" />
+<meta property="og:image" content="Personal Care" />
+<!--  -->
+</head>
+
+<body>
+    <!-- Navigaton Bar Starts -->
+    <div class="header cont">
+        <div class="logo-container">
+            <h1 id="logo"><a href="index.html">Lumina.</a></h1>
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" class="active">Shop</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <!-- <li><a href="about.html">About</a></li> -->
+                <li><a href="contact.html">Contact</a></li>
+                <li id="login"><a href="login.html"><i class='bx bx-user'></i></a></li>
+                <li id="shop">
+
+                    <a href="cart.html"><i class='bx bx-cart-alt'></i>
+                        <span class="cart-badge">
+                            <span id="cart-count" class="cart-count">0</span>
+                        </span>
+
+                    </a>
+                </li>
+
+                <p id="close"><i class='bx bx-x'></i></p>
+            </ul>
+        </nav>
+        <div id="mobile">
+            <a href="login.html" id="mobile-user"><i class="fas fa-user"></i></a>
+            <a href="cart.html"><i class="fas fa-shopping-cart">
+                    <span class="cart-badge">
+                        <span id="cart-count" class="cart-count">0</span>
+                    </span>
+                </i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </div>
+
+    <!--Header  -->
+
+    <header>
+        <h1>Personal Care</h1>
+    </header>
+
+    <!-- Mobile Only Navigation -->
+    <div class="coll-nav container" id="mobile-coll-nav">
+        <a href="shop.html" class="mobie-coll-link coll-link ">Featured</a>
+        <a href="clothing.html" class="mobie-coll-link coll-link">Clothing</a>
+        <a href="personal-care.html" class="mobie-coll-link coll-link active">Personal Care</a>
+        <a href="eGadgets.html" class="mobie-coll-link coll-link">Electronics and Gadgets</a>
+        <a href="fandb.html" class="mobie-coll-link coll-link">Food and Beverages</a>
+        <a href="furnitures.html" class="mobie-coll-link coll-link">Furnitures</a>
+    </div>
+    <!-- Shop container -->
+
+    <section class="shop-container container">
+
+        <div class="collections">
+            <div class="collections-header">
+                <h2>Collections</h2>
+            </div>
+
+            <div class="coll-nav">
+                <a href="shop.html" class="coll-link">Featured</a>
+                <a href="clothing.html" class="coll-link">Clothing</a>
+                <a href="personal-care.html" class="coll-link active">Personal Care</a>
+                <a href="eGadgets.html" class="coll-link">Electronics and Gadgets</a>
+                <a href="fandb.html" class="coll-link">Food and Beverages</a>
+                <a href="furnitures.html" class="coll-link">Furnitures</a>
+            </div>
+        </div>
+
+        <div class="products-section">
+
+            <div class="products-header">
+                <h2>Build Your Own Personal Care Routine</h2>
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="search" id="search" placeholder="Search in Lumina"
+                        onkeyup="searchLumina()">
+                </div>
+            </div>
+
+            <div class="noMatch"></div>
+
+            <div class="products-container">
+
+
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/fda3053127de9043b56cac2b33c53f75.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>Mamaearth</h3>
+                        <h5>Mama Earth Tea Tree Face Wash 100Ml</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 375</h4>
+                    <p><span>Rs. 420</span> <span>-11%</span></p>
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/8dea5556b9abda09267d51f4c9aded1f.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>Mamaearth</h3>
+                        <h5>Mamaearth Honey Malai Body Lotion 400 ml</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 719</h4>
+                    <!-- <p><span>Rs. 1,050</span> <span>-64%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/8972bde920149e455c1d7ba583c37f5f.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>Enchanteur</h3>
+                        <h5>ENCHANTEUR Romantic Perfumed Shower Gel - 550 ml</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 625</h4>
+                    <!-- <p><span>Rs. 1,750</span> <span>-26%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/797d71441bd5bce296eeada4f4e9f010.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>Cetaphil</h3>
+                        <h5>Cetaphil Moisturizing Lotion -500ml</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 2,080</h4>
+                    <!-- <p><span>Rs 1050</span> <span>-64%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/badfc79fa0693417d22b758634188831.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>Livon</h3>
+                        <h5>Livon Hair Serum Damage Protect - 200 ml</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 575</h4>
+                    <!-- <p><span>Rs. 2,250</span> <span>-40%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/4346071c4858d8c60d45027bf0011a60.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <br>
+                        <h3>Dr. Rashel</h3>
+                        <br>
+                        <h5>DR.RASHEL Men Beard Hair Growth Oil 50 ml </h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 600</h4>
+                    <p><span>Rs. 1200</span> <span>-50%</span></p>
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/dc242d452b79a26cfddfa0bb309d6833.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>Vintage T9</h3>
+                        <h5>Vintage T9 Electric Hair Clipper Professional Hair Trimmer For Men</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 599</h4>
+                    <p><span>Rs. 1,000</span> <span>-40%</span></p>
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/3de76eb4401bc00308c334a7af2496c4.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>Wow Skin Science</h3>
+                        <h5>Air Force Shoe 1 White Comfortable Stylish Sneaker Shoes For Men</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 511</h4>
+                    <p><span>Rs. 639</span> <span>-20%</span></p>
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/d13de741fdd49338462660070b3f1378.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>Mamaearth</h3>
+                        <h5>mamaearth Tea Tree Foaming Face Wash With Tea Tree & Salicylic Acid for Acne & Pimples -
+                            150ml</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 639</h4>
+                    <!-- <p><span>Rs. 399</span> <span>-5%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/1a299eba2abe4125796a4606ffeabe3e.png_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>DHC</h3>
+                        <h5>DHC Medicated Acne Control Lotion (Toner) 160ml</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 1275</h4>
+                    <!-- <p><span>Rs. 1,500</span> <span>-49%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/ecfe3ddbe538cfa9fca8f1c5969cf983.png_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>No Brand</h3>
+                        <h5>Jorni Rakshak Tel - Joint & Body Massage Oil 100 ML
+                        </h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 950</h4>
+                    <!-- <p><span>Rs 1050</span> <span>-64%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/94b4b35bd6d6ab2d5f41aca9479b0c81.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>AXE</h3>
+                        <h5>Axe Signature Dark Temptation After Shave Lotion 50 ml For Men</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 176</h4>
+                    <p><span>Rs. 208</span> <span>-15%</span></p>
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+
+                </div>
+
+                <div id="cart-alert" class="cart-alert">
+                    Item added to cart successfully!
+                </div>
+                </class=>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <hr>
+
+    <!-- Footer Section -->
+    <footer class="cont">
+        <div class="col">
+            <h1 id="logo" class="f-logo"><a href="#">Lumina.</a></h1>
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Sundarharaincha 07, Gothgaun, Morang</p>
+            <p><strong>E-mail:</strong> Customerservice@lumina.com</p>
+            <p><strong>Phone:</strong> +977 9824315447</p>
+
+            <div class="social-links">
+                <h4>Follow Us</h4>
+                <a href="#" class="social-link"><i class="lni lni-facebook"></i></a>
+                <a href="#" class="social-link"><i class="lni lni-instagram"></i></a>
+                <a href="#" class="social-link"><i class="lni lni-twitter"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install-app">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="install-row">
+                <img src="./Images/Store/app.jpg" alt="App Store">
+                <img src="./Images/Store/play.jpg" alt="Google Play Store">
+            </div>
+            <p>Secured Payement Gateway</p>
+            <img src="./Images/Payment/pay.png" alt="Payement Gateway">
+        </div>
+
+        <div class="copyright">
+            <p>&copy; Lumina 2023. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+    <script src="./JavaScript/nav.js"></script>
+    <script src="./JavaScript/cart.js"></script>
+    <script src="./JavaScript/shop.js"></script>
+    <script src="./JavaScript/search.js"></script>
+    <script src="./JavaScript/setItem.js"></script>
+
+</body>
+
+</html>

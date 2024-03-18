@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+
+    <!-- Remix icon CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Boxicon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- lni CDN -->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./CSS/cart.css" />
+
+    <!-- Title -->
+    <title>
+        Online Shopping in Nepal | Best Deals, Prices & Discounts - Lumina.com.np
+    </title>
+
+    <!-- Meta Tags -->
+    <meta name="description"
+        content="Looking for Online Shopping Nepal? Lumina.com.np online shopping site is one of the largest online shopping store in Kathmandu, Biratnagar across the country - Shop Now! ✓FREE Delivery" />
+    <meta property="og:url" content="https://www.lumina.com.np/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Online Shopping in Nepal | Best Deals, Prices &amp; Discounts - lumina.com.np" />
+    <meta property="og:image" content="Cart" />
+    <!--  -->
+</head>
+
+<body>
+    <!-- Navigaton Bar Starts -->
+    <div class="header cont">
+        <div class="logo-container">
+            <h1 id="logo"><a href="index.html">Lumina.</a></h1>
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <!-- <li><a href="about.html">About</a></li> -->
+                <li><a href="contact.html">Contact</a></li>
+                <li id="login">
+                    <a href="login.html"><i class="bx bx-user"></i></a>
+                </li>
+                <li id="shop">
+                    <a href="#" class="active"><i class="bx bx-cart-alt"></i>
+                        <span class="cart-badge">
+                            <span id="cart-count" class="cart-count">0</span>
+                        </span>
+                    </a>
+                </li>
+
+                <p id="close"><i class="bx bx-x"></i></p>
+            </ul>
+        </nav>
+        <div id="mobile">
+            <a href="login.html" id="mobile-user"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart">
+                    <span class="cart-badge">
+                        <span id="cart-count" class="cart-count">0</span>
+                    </span>
+                </i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </div>
+
+    <!-- Cart Items will be here -->
+    <section class="cart-container container">
+        <div class="left">
+            <header id="cartHeader">
+                <div class="selection">
+                    <input type="checkbox" id="selectAll" name="selectAll" />
+                    <label for="selectAll" id="selectLabel">Select All</label>
+                </div>
+                <div id="delContainer">
+                    <p id="delete"><i class="fa-solid fa-trash"></i>delete</p>
+                </div>
+            </header>
+
+            <div class="products-section">
+                <div class="products-container"></div>
+            </div>
+        </div>
+
+        <!--Checkout Section -->
+        <div class="right"></div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="cont">
+        <div class="col">
+            <h1 id="logo" class="f-logo"><a href="#">Lumina.</a></h1>
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Sundarharaincha 07, Gothgaun, Morang</p>
+            <p><strong>E-mail:</strong> Customerservice@lumina.com</p>
+            <p><strong>Phone:</strong> +977 9824315447</p>
+
+            <div class="social-links">
+                <h4>Follow Us</h4>
+                <a href="#" class="social-link"><i class="lni lni-facebook"></i></a>
+                <a href="#" class="social-link"><i class="lni lni-instagram"></i></a>
+                <a href="#" class="social-link"><i class="lni lni-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install-app">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="install-row">
+                <img src="./Images/Store/app.jpg" alt="App Store" />
+                <img src="./Images/Store/play.jpg" alt="Google Play Store" />
+            </div>
+            <p>Secured Payement Gateway</p>
+            <img src="./Images/Payment/pay.png" alt="Payement Gateway" />
+        </div>
+
+        <div class="copyright">
+            <p>&copy; Lumina 2023. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+    <script src="./JavaScript/nav.js"></script>
+    <!-- <script src="./JavaScript/cart.js"></script> -->
+    <script src="./JavaScript/getItem.js"></script>
+</body>
+
+</html>

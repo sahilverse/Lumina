@@ -1,0 +1,130 @@
+/* From style.css, might reconsider later */
+
+.main {
+  background: url(../Images/main.jpg) no-repeat center center/cover;
+  height: 100vh;
+  background-position: top 0% right 20%;
+}
+
+.main .content {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  justify-content: center;
+  align-items: flex-start;
+}
+/*                         */
+/* Featured Products */
+.feature {
+  text-align: center;
+}
+
+.feature>h1 {
+  font-size: 5rem;
+  color: var(--text-color-p);
+}
+
+.feature>p {
+  font-size: 2rem;
+  padding: 0 0 3rem 0;
+  color: #088178;
+}
+
+.f-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  border: 1px solid #fff;
+  width: 23%;
+  min-width: 300px;
+  border-radius: 25px;
+  padding: 10px 12px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.product:hover {
+  border: 1px solid black;
+}
+
+.product {
+  position: relative;
+}
+
+.feature .product img {
+  width: 100%;
+  border-radius: 20px;
+  /* padding: 5px 5px; */
+}
+
+.product-d {
+  text-align: start;
+}
+
+.product-d span {
+  font-size: 1.6rem;
+}
+
+.product-d h5 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #635985;
+}
+
+.pro-review {
+  padding: 5px 0;
+}
+
+.pro-review>i {
+  font-size: 1.6rem;
+  color: #f57224;
+  padding: 5px 0;
+}
+
+.product {
+  text-align: start;
+}
+
+.product>h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(6, 69, 75);
+}
+
+.product>p {
+  font-size: 1.4rem;
+}
+
+.product>p span:first-child {
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+
+.product>a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1.6rem;
+  text-decoration: none;
+  color: var(--color-g);
+  transition: 0.3s ease;
+  margin: 0 1rem 1rem 0;
+}
+
+.product>a>i {
+  font-size: 3rem;
+}
+
+.product>a:hover {
+  background-color: var(--color-g);
+  border-radius: 50%;
+  color: #fff;
+}
+
+
+
+

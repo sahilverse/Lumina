@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+<!-- Favicon -->
+
+<!-- Boxicon CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+<!-- Fontawesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- lni CDN -->
+<link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+
+<!-- Bootstrap CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+<!-- StyleSheet -->
+<link rel="stylesheet" href="./CSS/furnitures.css">
+<link rel="stylesheet" href="./CSS/nomatch.css">
+
+<!-- Title -->
+
+<title>
+    Online Shopping in Nepal | Best Deals, Prices & Discounts - Lumina.com.np
+</title>
+
+<!-- Meta Tags -->
+<meta name="description"
+    content="Looking for Online Shopping Nepal? Lumina.com.np online shopping site is one of the largest online shopping store in Kathmandu, Biratnagar across the country - Shop Now! ✓FREE Delivery" />
+<meta property="og:url" content="https://www.lumina.com.np/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Online Shopping in Nepal | Best Deals, Prices &amp; Discounts - lumina.com.np" />
+<meta property="og:image" content="Furnitures" />
+<!--  -->
+</head>
+
+<body>
+    <!-- Navigaton Bar Starts -->
+    <div class="header cont">
+        <div class="logo-container">
+            <h1 id="logo"><a href="index.html">Lumina.</a></h1>
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" class="active">Shop</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <!-- <li><a href="about.html">About</a></li> -->
+                <li><a href="contact.html">Contact</a></li>
+                <li id="login"><a href="login.html"><i class='bx bx-user'></i></a></li>
+                <li id="shop">
+
+                    <a href="cart.html"><i class='bx bx-cart-alt'></i>
+                        <span class="cart-badge">
+                            <span id="cart-count" class="cart-count">0</span>
+                        </span>
+
+                    </a>
+                </li>
+
+                <p id="close"><i class='bx bx-x'></i></p>
+            </ul>
+        </nav>
+        <div id="mobile">
+            <a href="login.html" id="mobile-user"><i class="fas fa-user"></i></a>
+            <a href="cart.html"><i class="fas fa-shopping-cart">
+                    <span class="cart-badge">
+                        <span id="cart-count" class="cart-count">0</span>
+                    </span>
+                </i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </div>
+
+    <!--Header  -->
+
+    <header>
+        <h1>Furnitures</h1>
+    </header>
+
+    <!-- Mobile Only Navigation -->
+    <div class="coll-nav container" id="mobile-coll-nav">
+        <a href="shop.html" class="mobie-coll-link coll-link ">Featured</a>
+        <a href="clothing.html" class="mobie-coll-link coll-link">Clothing</a>
+        <a href="personal-care.html" class="mobie-coll-link coll-link">Personal Care</a>
+        <a href="eGadgets.html" class="mobie-coll-link coll-link">Electronics and Gadgets</a>
+        <a href="fandb.html" class="mobie-coll-link coll-link">Food and Beverages</a>
+        <a href="furnitures.html" class="mobie-coll-link coll-link active">Furnitures</a>
+    </div>
+    <!-- Shop container -->
+
+    <section class="shop-container container">
+
+        <div class="collections">
+            <div class="collections-header">
+                <h2>Collections</h2>
+            </div>
+
+            <div class="coll-nav">
+                <a href="shop.html" class="coll-link">Featured</a>
+                <a href="clothing.html" class="coll-link">Clothing</a>
+                <a href="personal-care.html" class="coll-link">Personal Care</a>
+                <a href="eGadgets.html" class="coll-link">Electronics and Gadgets</a>
+                <a href="fandb.html" class="coll-link">Food and Beverages</a>
+                <a href="furnitures.html" class="coll-link active">Furnitures</a>
+            </div>
+        </div>
+
+        <div class="products-section">
+
+            <div class="products-header">
+                <h2>Functional Furnishings</h2>
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="search" id="search" placeholder="Search in Lumina"
+                        onkeyup="searchLumina()">
+                </div>
+            </div>
+
+            <div class="noMatch"></div>
+
+            <div class="products-container">
+
+
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/086007523a38fab95df330eda3de55f4.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>No Brand</h3>
+                        <h5>Coffee Tea Table (Color : Yellow Style)</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 5,000</h4>
+                    <!-- <p><span>Rs. 28,600</span> <span>-15%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/dab8c17b7414616a3af49ef30b143282.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>No Brand</h3>
+                        <h5>Nightstands and Side Table with Drawer and Solid Wood Legs, Bedside Table for Bedrooms,
+                            Modern Drawer Storage, white</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 9,500</h4>
+                    <p><span>Rs. 11,000</span> <span>-14%</span></p>
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/00e468aea6c88ea28d7ab9eec52e0b7e.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>QuanU</h3>
+                        <h5>Q&U Furniture - {L= 7feet * W= 5feet} Sketch The Time Design Queen Size Bed Without Side Box
+                            - 61801-2</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 45,850</h4>
+                    <!-- <p><span>Rs. 139,,990</span> <span>-25%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/02021cf36874ef5bc3cc2efcc5552202.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>No Brand</h3>
+                        <h5>Coffee Table with Storage Drawer and Open Compartment </h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 10,000</h4>
+                    <!-- <p><span>Rs 198,890</span> <span>-3%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/63386bed0cce6defbc8e6f8ac158cb75.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>No Brand</h3>
+                        <h5>Tea Coffee Table Sofa Set Table (Grey White)</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 12,000</h4>
+                    <!-- <p><span>Rs. 2,250</span> <span>-40%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://np-live-21.slatic.net/kf/S600f9a84b43b4bf9a6885a22c06254dcX.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <br>
+                        <h3>No Brand</h3>
+                        <br>
+                        <h5>Modern Home/Office Desk With Storage Shelves</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 18,500</h4>
+                    <!-- <p><span>Rs. 170,000</span> <span>-13%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/c7e32ab49e59f6e4cbb39a43c351bb2b.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>QuanU</h3>
+                        <h5>Q&U Furniture - Tempered Glass Top Dinning Table {L= 4.4feet * W= 2.8feet * H= 2.6feet} -
+                            50733</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 52,000</h4>
+                    <!-- <p><span>Rs. 1,000</span> <span>-40%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/9fb5784002424575dc59cb9af85e175b.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>No Brand</h3>
+                        <h5>Light Grey Colour Wooden Sofa Bed King Sized ( 5ft X 6.5ft )</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 75,000</h4>
+                    <!-- <p><span>Rs. 139,900</span> <span>-4%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/8c987f4a000886117da1c4ff208d2954.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>No Brand</h3>
+                        <h5>Fully Furnished Wardrobe Cupboard</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 13,999</h4>
+                    <p><span>Rs. 16,500</span> <span>-15%</span></p>
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://np-live-21.slatic.net/kf/Sd82996d1877246fc92bb82c979e0bbf33.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>No Brand</h3>
+                        <h5>Home Office Table study table With 3 Fixed Drawers 1400*700*750mm</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 22,000</h4>
+                    <!-- <p><span>Rs. 1,500</span> <span>-49%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/4216b7da65fdbc16acab1a9b1395cf07.png_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>No Brand</h3>
+                        <h5>Minimal Wooden side table
+                        </h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 3,500</h4>
+                    <p><span>Rs 5,000</span> <span>-30%</span></p>
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="https://static-01.daraz.com.np/p/30b80242416cf9d13296c0b7023a57f8.jpg_720x720.jpg_.webp"
+                        alt="">
+
+
+                    <div class="product-d">
+                        <h3>No Brand</h3>
+                        <h5>White Bedside Table with Storage Box and Drawer Nightstand for Bedroom, Living Room</h5>
+
+
+                        <div class="pro-review">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+
+                    <h4>Rs. 10,000</h4>
+                    <!-- <p><span>Rs. 33,990</span> <span>-10%</span></p> -->
+
+
+                    <a title="Add to Cart" class="cart"><i class="fas fa-shopping-cart"></i></a>
+
+                </div>
+
+                <div id="cart-alert" class="cart-alert">
+                    Item added to cart successfully!
+                </div>
+                </class=>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <hr>
+
+    <!-- Footer Section -->
+    <footer class="cont">
+        <div class="col">
+            <h1 id="logo" class="f-logo"><a href="#">Lumina.</a></h1>
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Sundarharaincha 07, Gothgaun, Morang</p>
+            <p><strong>E-mail:</strong> Customerservice@lumina.com</p>
+            <p><strong>Phone:</strong> +977 9824315447</p>
+
+            <div class="social-links">
+                <h4>Follow Us</h4>
+                <a href="#" class="social-link"><i class="lni lni-facebook"></i></a>
+                <a href="#" class="social-link"><i class="lni lni-instagram"></i></a>
+                <a href="#" class="social-link"><i class="lni lni-twitter"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install-app">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="install-row">
+                <img src="./Images/Store/app.jpg" alt="App Store">
+                <img src="./Images/Store/play.jpg" alt="Google Play Store">
+            </div>
+            <p>Secured Payement Gateway</p>
+            <img src="./Images/Payment/pay.png" alt="Payement Gateway">
+        </div>
+
+        <div class="copyright">
+            <p>&copy; Lumina 2023. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+    <script src="./JavaScript/nav.js"></script>
+    <script src="./JavaScript/cart.js"></script>
+    <script src="./JavaScript/shop.js"></script>
+    <script src="./JavaScript/search.js"></script>
+    <script src="./JavaScript/setItem.js"></script>
+
+</body>
+
+</html>
